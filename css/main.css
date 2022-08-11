@@ -8,4 +8,8 @@
 
 html {
   box-sizing: border-box;
+}
+
+body {
+  background: hsl(0deg, 0%, 96%);
 }/*# sourceMappingURL=main.css.map */

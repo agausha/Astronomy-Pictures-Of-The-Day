@@ -19,3 +19,7 @@ $color-primary-box-shadow: hsla(0, 0%, 0%, 0.2);
 html {
   box-sizing: border-box;
 }
+
+body {
+  background: $color-primary-bg;
+}
