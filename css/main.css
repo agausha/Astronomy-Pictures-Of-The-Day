@@ -21,6 +21,7 @@ body {
 .loader {
   background: hsl(0deg, 0%, 96%);
   height: 100vh;
+  width: 100vh;
 }
 
 .container {
