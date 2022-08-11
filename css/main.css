@@ -12,4 +12,5 @@ html {
 
 body {
   background: hsl(0deg, 0%, 96%);
+  overflow-x: hidden;
 }/*# sourceMappingURL=main.css.map */
