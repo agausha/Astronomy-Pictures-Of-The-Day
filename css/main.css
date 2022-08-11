@@ -18,6 +18,10 @@ body {
   line-height: 1.8rem;
 }
 
+.loader {
+  background: hsl(0deg, 0%, 96%);
+}
+
 .container {
   position: relative;
   display: flex;
