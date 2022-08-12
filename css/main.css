@@ -67,6 +67,7 @@ body {
 
 .card {
   background: hsl(0deg, 0%, 100%);
+  margin: 10px 10px 20px;
 }
 
 .container {
