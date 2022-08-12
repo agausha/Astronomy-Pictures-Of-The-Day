@@ -36,6 +36,7 @@ function createDOMNodes(page) {
     // Card Title
     const cardTitle = document.createElement('h5');
     cardTitle.classList.add('card-title');
+    cardTitle.textContent = result.title;
   });
 }
 
