@@ -32,6 +32,7 @@ function createDOMNodes(page) {
     image.classList.add('card-img-top');
     // Card Body
     const cardBody = document.createElement('div');
+    cardBody.classList.add('card-body');
   });
 }
 
