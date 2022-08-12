@@ -23,6 +23,7 @@ function createDOMNodes(page) {
     const link = document.createElement('a');
     link.href = result.hdurl;
     link.title = 'View Full Image';
+    link.target = '_blank';
   });
 }
 
