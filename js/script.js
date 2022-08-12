@@ -49,6 +49,7 @@ function createDOMNodes(page) {
     }
     // Card Text
     const cardText = document.createElement('p');
+    date.textContent = result.date;
   });
 }
 
