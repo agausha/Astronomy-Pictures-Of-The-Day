@@ -94,6 +94,7 @@ body {
 .save-confirmed {
   background: hsl(0deg, 0%, 100%);
   padding: 8px 16px;
+  border-radius: 5px;
 }
 
 .container {
