@@ -27,6 +27,7 @@ function createDOMNodes(page) {
     // Image
     const image = document.createElement('img');
     image.src = result.url;
+    image.alt = 'NASA Picture of the Day';
   });
 }
 
