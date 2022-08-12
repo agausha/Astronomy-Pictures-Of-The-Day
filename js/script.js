@@ -35,6 +35,7 @@ function createDOMNodes(page) {
     cardBody.classList.add('card-body');
     // Card Title
     const cardTitle = document.createElement('h5');
+    cardTitle.classList.add('card-title');
   });
 }
 
