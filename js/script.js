@@ -15,6 +15,7 @@ let favorites = {};
 function createDOMNodes(page) {
   // Load ResultsArray or Favorites
   const currentArray = page === 'results' ? resultsArray : Object.values(favorites);
+  currentArray.forEach((result) => {})
 }
 
 function updateDOM(page) 
