@@ -33,6 +33,8 @@ function createDOMNodes(page) {
     // Card Body
     const cardBody = document.createElement('div');
     cardBody.classList.add('card-body');
+    // Card Title
+    const cardTitle = document.createElement('h5');
   });
 }
 
