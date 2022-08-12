@@ -19,6 +19,8 @@ function createDOMNodes(page) {
     // Card Container
     const card = document.createElement('div');
     card.classList.add('card');
+    // Link
+    const link = document.createElement('a');
   });
 }
 
