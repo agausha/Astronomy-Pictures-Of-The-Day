@@ -41,6 +41,7 @@ body {
 
 .background {
   background: hsl(0deg, 0%, 96%);
+  position: fixed;
 }
 
 .container {
