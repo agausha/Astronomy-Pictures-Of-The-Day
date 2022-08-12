@@ -60,6 +60,10 @@ body {
   color: hsl(210deg, 89%, 45%);
 }
 
+.images-container {
+  width: 800px;
+}
+
 .container {
   position: relative;
   display: flex;
