@@ -31,6 +31,7 @@ body {
 
 .navigation-container {
   position: fixed;
+  top: 0;
 }
 
 .container {
