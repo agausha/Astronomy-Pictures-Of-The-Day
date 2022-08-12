@@ -47,6 +47,8 @@ function createDOMNodes(page) {
       saveText.textContent = 'Remove Favorite';
       saveText.setAttribute('onclick', `removeFavorite('${result.url}')`);
     }
+    // Card Text
+    const cardText = document.createElement('p');
   });
 }
 
