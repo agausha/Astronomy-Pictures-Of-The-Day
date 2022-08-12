@@ -21,6 +21,7 @@ function createDOMNodes(page) {
     card.classList.add('card');
     // Link
     const link = document.createElement('a');
+    link.href = result.hdurl;
   });
 }
 
