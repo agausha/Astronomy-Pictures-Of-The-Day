@@ -113,6 +113,11 @@ body {
   display: none;
 }
 
+@media screen and (max-width: 800px) {
+  .images-container {
+    width: 100%;
+  }
+}
 .container {
   position: relative;
   display: flex;
