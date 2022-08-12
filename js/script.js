@@ -16,5 +16,7 @@ let favorites = {};
 async function getNasaPictures() {
   // Show Loader
   loader.classList.remove('hidden');
-  try {} catch (error) {}
+  try {
+    const response = await fetch(apiUrl);
+  } catch (error) {}
 }
