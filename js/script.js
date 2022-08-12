@@ -18,5 +18,6 @@ async function getNasaPictures() {
   loader.classList.remove('hidden');
   try {
     const response = await fetch(apiUrl);
+    resultsArray = await response.json();
   } catch (error) {}
 }
