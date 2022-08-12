@@ -56,6 +56,9 @@ body {
       -ms-user-select: none;
           user-select: none;
 }
+.clickable:hover {
+  color: hsl(210deg, 89%, 45%);
+}
 
 .container {
   position: relative;

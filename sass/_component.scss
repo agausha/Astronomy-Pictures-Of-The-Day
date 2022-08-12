@@ -36,4 +36,8 @@
   color: $color-primary-clickable;
   cursor: pointer;
   user-select: none;
+
+  &:hover {
+    color: $color-primary-clickable-hover;
+  }
 }
