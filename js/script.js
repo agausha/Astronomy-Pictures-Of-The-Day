@@ -53,7 +53,7 @@ function createDOMNodes(page) {
   });
   // Footer Container
   const footer = document.createElement('small');
-
+  footer.classList.add('text-muted');
 }
 
 function updateDOM(page) 
