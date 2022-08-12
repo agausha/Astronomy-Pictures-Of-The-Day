@@ -91,6 +91,10 @@ body {
   font-size: 24px;
 }
 
+.save-confirmed {
+  background: hsl(0deg, 0%, 100%);
+}
+
 .container {
   position: relative;
   display: flex;
