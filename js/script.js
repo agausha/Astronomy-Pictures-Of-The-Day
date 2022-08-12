@@ -56,6 +56,7 @@ function createDOMNodes(page) {
   footer.classList.add('text-muted');
   // Date
   const date = document.createElement('strong');
+  date.textContent = result.date;
 }
 
 function updateDOM(page) 
