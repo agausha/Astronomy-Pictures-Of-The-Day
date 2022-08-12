@@ -12,7 +12,10 @@ const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=${co
 let resultsArray = [];
 let favorites = {};
 
-function createDOMNodes(page) {}
+function createDOMNodes(page) {
+  // Load ResultsArray or Favorites
+  const currentArray = page === 'results' ? resultsArray : Object.values(favorites);
+}
 
 function updateDOM(page) 
   
