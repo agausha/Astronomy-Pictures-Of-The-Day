@@ -50,6 +50,11 @@ body {
 
 .clickable {
   color: hsl(210deg, 100%, 56%);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .container {

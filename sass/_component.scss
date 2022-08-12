@@ -34,4 +34,6 @@
 
 .clickable {
   color: $color-primary-clickable;
+  cursor: pointer;
+  user-select: none;
 }
