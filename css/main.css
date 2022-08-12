@@ -39,6 +39,10 @@ body {
   justify-content: center;
 }
 
+.background {
+  background: hsl(0deg, 0%, 96%);
+}
+
 .container {
   position: relative;
   display: flex;
