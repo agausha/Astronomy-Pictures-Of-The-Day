@@ -29,6 +29,10 @@ body {
   align-items: center;
 }
 
+.navigation-container {
+  position: fixed;
+}
+
 .container {
   position: relative;
   display: flex;
