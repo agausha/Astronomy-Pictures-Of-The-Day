@@ -54,6 +54,8 @@ function createDOMNodes(page) {
   // Footer Container
   const footer = document.createElement('small');
   footer.classList.add('text-muted');
+  // Date
+  const date = document.createElement('strong');
 }
 
 function updateDOM(page) 
