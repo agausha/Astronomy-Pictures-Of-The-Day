@@ -29,6 +29,7 @@ function createDOMNodes(page) {
     image.src = result.url;
     image.alt = 'NASA Picture of the Day';
     image.loading = 'lazy';
+    image.classList.add('card-img-top');
   });
 }
 
