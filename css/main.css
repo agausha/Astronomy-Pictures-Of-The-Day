@@ -65,6 +65,10 @@ body {
   margin-top: 50px;
 }
 
+.card {
+  background: hsl(0deg, 0%, 100%);
+}
+
 .container {
   position: relative;
   display: flex;
