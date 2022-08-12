@@ -18,6 +18,7 @@ function createDOMNodes(page) {
   currentArray.forEach((result) => {
     // Card Container
     const card = document.createElement('div');
+    card.classList.add('card');
   });
 }
 
