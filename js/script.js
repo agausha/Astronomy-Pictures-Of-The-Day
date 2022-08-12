@@ -13,4 +13,7 @@ let resultsArray = [];
 let favorites = {};
 
 // Get 20 images from NASA API
-async function getNasaPictures()
+async function getNasaPictures() {
+  // Show Loader
+  loader.classList.remove('hidden');
+}
