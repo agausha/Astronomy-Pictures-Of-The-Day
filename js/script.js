@@ -6,3 +6,4 @@ const loader = document.querySelector('.loader');
 
 // NASA API
 const count = 20;
+const apiKey = 'DEMO_KEY';
