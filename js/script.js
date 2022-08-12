@@ -12,6 +12,9 @@ const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=${co
 let resultsArray = [];
 let favorites = {};
 
+function updateDOM(page) 
+  
+
 // Get 20 images from NASA API
 async function getNasaPictures() {
   // Show Loader
