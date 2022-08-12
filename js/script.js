@@ -40,6 +40,13 @@ function createDOMNodes(page) {
     // Save Text
     const saveText = document.createElement('p');
     saveText.classList.add('clickable');
+    if (page === 'results') {
+      saveText.textContent = 'Add To Favorites';
+      saveText.setAttribute('onclick', `saveFavorite('${result.url}')`);
+    } else {
+      saveText.textContent = 'Remove Favorite';
+      saveText.setAttribute('onclick', `removeFavorite('${result.url}')`);
+    }
   });
 }
 
