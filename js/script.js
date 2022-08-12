@@ -51,6 +51,9 @@ function createDOMNodes(page) {
     const cardText = document.createElement('p');
     date.textContent = result.date;
   });
+  // Footer Container
+  const footer = document.createElement('small');
+
 }
 
 function updateDOM(page) 
