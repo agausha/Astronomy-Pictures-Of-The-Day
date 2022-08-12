@@ -19,5 +19,10 @@ async function getNasaPictures() {
   try {
     const response = await fetch(apiUrl);
     resultsArray = await response.json();
-  } catch (error) {}
+  } catch (error) {
+    // Catch Error Here
+  }
 }
+
+// On Load
+getNasaPictures();
