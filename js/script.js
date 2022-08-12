@@ -39,6 +39,7 @@ function createDOMNodes(page) {
     cardTitle.textContent = result.title;
     // Save Text
     const saveText = document.createElement('p');
+    saveText.classList.add('clickable');
   });
 }
 
