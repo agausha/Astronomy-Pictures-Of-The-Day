@@ -32,4 +32,6 @@
   z-index: -1;
 }
 
-.clickable {}
+.clickable {
+  color: $color-primary-clickable;
+}

@@ -48,6 +48,10 @@ body {
   z-index: -1;
 }
 
+.clickable {
+  color: hsl(210deg, 100%, 56%);
+}
+
 .container {
   position: relative;
   display: flex;
