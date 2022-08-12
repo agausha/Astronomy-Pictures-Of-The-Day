@@ -24,6 +24,8 @@ function createDOMNodes(page) {
     link.href = result.hdurl;
     link.title = 'View Full Image';
     link.target = '_blank';
+    // Image
+    const image = document.createElement('img');
   });
 }
 
