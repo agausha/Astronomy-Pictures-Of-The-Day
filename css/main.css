@@ -120,6 +120,9 @@ body {
   .card-title {
     font-size: 20px;
   }
+  .save-confirmed {
+    right: 25px;
+  }
 }
 .container {
   position: relative;
