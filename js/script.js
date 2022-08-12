@@ -26,6 +26,7 @@ function createDOMNodes(page) {
     link.target = '_blank';
     // Image
     const image = document.createElement('img');
+    image.src = result.url;
   });
 }
 
