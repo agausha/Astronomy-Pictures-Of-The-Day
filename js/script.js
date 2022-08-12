@@ -30,6 +30,8 @@ function createDOMNodes(page) {
     image.alt = 'NASA Picture of the Day';
     image.loading = 'lazy';
     image.classList.add('card-img-top');
+    // Card Body
+    const cardBody = document.createElement('div');
   });
 }
 
