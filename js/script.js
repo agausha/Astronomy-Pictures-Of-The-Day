@@ -13,7 +13,9 @@ let resultsArray = [];
 let favorites = {};
 
 // Scroll To Top, Remove Loader, Show Content
-function showContent(page)
+function showContent(page) {
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
 
 function createDOMNodes(page) {
   // Load ResultsArray or Favorites
