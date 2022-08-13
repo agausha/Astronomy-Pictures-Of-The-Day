@@ -15,6 +15,10 @@ let favorites = {};
 // Scroll To Top, Remove Loader, Show Content
 function showContent(page) {
   window.scrollTo({ top: 0, behavior: 'instant' });
+  if (page === 'results') {
+    resultsNav.classList.remove('hidden');
+    favoritesNav.classList.add('hidden');
+  }
 }
 
 function createDOMNodes(page) {
