@@ -62,7 +62,7 @@ function createDOMNodes(page) {
     }
     // Card Text
     const cardText = document.createElement('p');
-    date.textContent = result.date;
+    cardText.textContent = result.explanation;
     // Footer Container
     const footer = document.createElement('small');
     footer.classList.add('text-muted');
