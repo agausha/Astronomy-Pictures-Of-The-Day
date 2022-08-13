@@ -61,6 +61,8 @@ function createDOMNodes(page) {
   const copyrightResult = result.copyright === undefined ? '' : result.copyright;
   const copyright = document.createElement('span');
   copyright.textContent = ` ${copyrightResult}`;
+  // Append
+  footer.append(date, copyright);
 }
 
 function updateDOM(page) 
