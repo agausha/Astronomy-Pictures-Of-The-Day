@@ -60,6 +60,7 @@ function createDOMNodes(page) {
   // Copyright
   const copyrightResult = result.copyright === undefined ? '' : result.copyright;
   const copyright = document.createElement('span');
+  copyright.textContent = ` ${copyrightResult}`;
 }
 
 function updateDOM(page) 
