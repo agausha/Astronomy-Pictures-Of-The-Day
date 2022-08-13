@@ -69,7 +69,12 @@ function createDOMNodes(page) {
   });
 }
 
-function updateDOM(page) 
+function updateDOM(page) {
+  // Get Favorites from localStorage
+  if (localStorage.getItem('nasaFavorites')) {
+    favorites = JSON.parse(localStorage.getItem('nasaFavorites'));
+  }
+}
   
 
 // Get 20 images from NASA API
