@@ -123,5 +123,8 @@ function saveFavorite(itemUrl) {
   });
 }
 
+// Remove item from Favorites
+function removeFavorite(itemUrl)
+
 // On Load
 getNasaPictures();
