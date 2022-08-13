@@ -22,6 +22,7 @@ function showContent(page) {
     resultsNav.classList.add('hidden');
     favoritesNav.classList.remove('hidden');
   }
+  loader.classList.add('hidden');
 }
 
 function createDOMNodes(page) {
