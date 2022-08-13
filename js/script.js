@@ -63,6 +63,7 @@ function createDOMNodes(page) {
   copyright.textContent = ` ${copyrightResult}`;
   // Append
   footer.append(date, copyright);
+  cardBody.append(cardTitle, saveText, cardText, footer);
 }
 
 function updateDOM(page) 
