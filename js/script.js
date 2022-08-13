@@ -59,6 +59,7 @@ function createDOMNodes(page) {
   date.textContent = result.date;
   // Copyright
   const copyrightResult = result.copyright === undefined ? '' : result.copyright;
+  const copyright = document.createElement('span');
 }
 
 function updateDOM(page) 
