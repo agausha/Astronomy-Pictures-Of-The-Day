@@ -65,6 +65,7 @@ function createDOMNodes(page) {
   footer.append(date, copyright);
   cardBody.append(cardTitle, saveText, cardText, footer);
   link.appendChild(image);
+  card.append(link, cardBody);
 }
 
 function updateDOM(page) 
