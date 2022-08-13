@@ -50,22 +50,23 @@ function createDOMNodes(page) {
     // Card Text
     const cardText = document.createElement('p');
     date.textContent = result.date;
+    // Footer Container
+    const footer = document.createElement('small');
+    footer.classList.add('text-muted');
+    // Date
+    const date = document.createElement('strong');
+    date.textContent = result.date;
+    // Copyright
+    const copyrightResult = result.copyright === undefined ? '' : result.copyright;
+    const copyright = document.createElement('span');
+    copyright.textContent = ` ${copyrightResult}`;
+    // Append
+    footer.append(date, copyright);
+    cardBody.append(cardTitle, saveText, cardText, footer);
+    link.appendChild(image);
+    card.append(link, cardBody);
+    imagesContainer.appendChild(card);
   });
-  // Footer Container
-  const footer = document.createElement('small');
-  footer.classList.add('text-muted');
-  // Date
-  const date = document.createElement('strong');
-  date.textContent = result.date;
-  // Copyright
-  const copyrightResult = result.copyright === undefined ? '' : result.copyright;
-  const copyright = document.createElement('span');
-  copyright.textContent = ` ${copyrightResult}`;
-  // Append
-  footer.append(date, copyright);
-  cardBody.append(cardTitle, saveText, cardText, footer);
-  link.appendChild(image);
-  card.append(link, cardBody);
 }
 
 function updateDOM(page) 
