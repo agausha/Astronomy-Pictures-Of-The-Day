@@ -106,5 +106,8 @@ async function getNasaPictures() {
   }
 }
 
+// Add result to Favorites
+function saveFavorite(itemUrl)
+
 // On Load
 getNasaPictures();
