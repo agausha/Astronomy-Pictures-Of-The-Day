@@ -57,6 +57,8 @@ function createDOMNodes(page) {
   // Date
   const date = document.createElement('strong');
   date.textContent = result.date;
+  // Copyright
+  const copyrightResult = result.copyright === undefined ? '' : result.copyright;
 }
 
 function updateDOM(page) 
