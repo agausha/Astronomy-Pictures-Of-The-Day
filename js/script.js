@@ -77,6 +77,7 @@ function updateDOM(page) {
   // Reset DOM, Create DOM Nodes, Show Content
   imagesContainer.textContent = '';
   createDOMNodes(page);
+  showContent(page);
 }
   
 
