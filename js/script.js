@@ -107,7 +107,14 @@ async function getNasaPictures() {
 }
 
 // Add result to Favorites
-function saveFavorite(itemUrl)
+function saveFavorite(itemUrl) {
+  // Loop through Results Array to select Favorite
+  resultsArray.forEach((item) => {
+    if (item.url.includes(itemUrl) && !favorites[itemUrl]) {
+      favorites[itemUrl] = item;
+    }
+  });
+}
 
 // On Load
 getNasaPictures();
